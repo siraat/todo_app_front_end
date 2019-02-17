@@ -1,0 +1,46 @@
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+li:hover{
+    background-color: #05fcbe;
+    border-radius: 3px;
+}
+
+body{
+    background-color: #ff214d;
+    
+}
+
+h1{
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.pomodoro-estimate{
+    font-weight: bold;
+    color: #11ff2d;
+    background-color: #d8d0cd;
+    border-radius: 50px;
+}
+.card{
+    background-color: #FFF;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #90A4E;
+    
+}
