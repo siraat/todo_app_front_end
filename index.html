@@ -2,6 +2,9 @@
     <head>
         <link rel="stylesheet" href="style.css" type="text/css" />
         <link rel="stylesheet" href="index.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     <title>To-Do List Application</title>   
     </head>
     <body>
@@ -25,6 +28,11 @@
           Finish project for Social Studies 
           <span class="pomodoro-estimate">3 pomodoros</span>
       </li>
-  </ul>
+  </ul> 
+  <div id="new-todo-block">
+      <input class="text-input" id="new-todo-description" type="text" placeholder="Add a new todo...">
+      <input class="text-input" id="new-pomodoro-estimate" type="number" placeholder="Pomodoro Estimate...">
+      <input class="button" id="add-new-todo-button" type="submit" value="Add todo">
+  </div>
 </body>    
 </html>
